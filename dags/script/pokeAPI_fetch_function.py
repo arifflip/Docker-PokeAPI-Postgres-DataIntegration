@@ -73,10 +73,6 @@ def get_dataset_information (number_of_pokemon) :
     #data
     data=response.json()
 
-    #OPTIONAL untuk overwrite print value
-    clear_output(wait=True)
-    print(f"Running on index {pokemon_index} with name {get_pokemon_name(data)}")
-
     #called functions to get desired value
     pokemon_name = get_pokemon_name(data)
 
@@ -100,7 +96,6 @@ def get_dataset_information (number_of_pokemon) :
   #convert to dataframe
   df_result=transform_to_dataframe(dict_master_data_pokemon)
 
-  clear_output(wait=True)
   print(f"Done for all {number_of_pokemon} pokemons with the last pokemon was --- {pokemon_name} --- with index nomber : {pokemon_index} \n")
 
 
