@@ -1,3 +1,7 @@
-FROM apache/airflow:2.7.1-python3.11
-USER airflow
-WORKDIR /opt/airflow
+FROM apache/airflow:2.7.1
+
+#copy requiremtnt to containert volue
+COPY ./airflow/requirements.txt /requirements.txt
+
+#run pip install to install libraries
+RUN pip install --no-cache-dir -r /requirements.txt
