@@ -51,7 +51,9 @@ services:
       - "8080:8080"
 
     command: >
-      bash -c "airflow db migrate && airflow standalone"
+      bash -c "pip install --no-cache-dir -r /requirements.txt && 
+               airflow db migrate && 
+               airflow standalone"
     networks:
       - airflow_network
 
