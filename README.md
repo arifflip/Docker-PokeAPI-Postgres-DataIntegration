@@ -7,6 +7,7 @@ Proyek ini mendemonstrasikan pipeline data otomatis yang melakukan ekstraksi dat
 --------------------------------------------------------------------------------------------------------------------
 ## Project Result Showcase
 
+<img width="2548" height="1560" alt="merged_all_project" src="https://github.com/user-attachments/assets/87b795b9-0dce-44ac-98a7-51b0dc1cc29e" />
 
 --------------------------------------------------------------------------------------------------------------------
 ## Tech Stack
