@@ -2,7 +2,7 @@
 
 ## Pokemon Clustering End-to-End Pipeline
 
-Proyek ini mendemonstrasikan pipeline data otomatis yang melakukan ekstraksi data Pokemon, pemrosesan clustering menggunakan Machine Learning (K-Means), dan visualisasi data secara real-time.
+Proyek ini mendemonstrasikan pipeline data otomatis yang melakukan ekstraksi data Pokemon, pemrosesan clustering menggunakan Machine Learning (K-Means), dan visualisasi data menggunakan Looker Studio.
 
 --------------------------------------------------------------------------------------------------------------------
 ## Project Result Showcase
