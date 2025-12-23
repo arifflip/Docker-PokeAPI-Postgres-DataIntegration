@@ -19,6 +19,7 @@ services:
       - airflow_network
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./create_pokemon_db.sql:/docker-entrypoint-initdb.d/create_pokemon_db.sql
 
   airflow:
     build:
