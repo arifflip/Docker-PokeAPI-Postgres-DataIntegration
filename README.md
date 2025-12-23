@@ -7,9 +7,11 @@ Proyek ini mendemonstrasikan pipeline data otomatis yang melakukan ekstraksi dat
 --------------------------------------------------------------------------------------------------------------------
 ## Project Result Showcase
 
-<img width="2548" height="1560" alt="merged_all_project" src="https://github.com/user-attachments/assets/87b795b9-0dce-44ac-98a7-51b0dc1cc29e" />
+<img width="3278" height="819" alt="image (3)" src="https://github.com/user-attachments/assets/15af1a05-95c3-408b-bf53-1da4a2e74e97" />
 
-url dashboard : https://lookerstudio.google.com/reporting/9573a5c4-3510-4a1d-9a05-97f1aa8b5359/page/zY7iF
+<img width="2872" height="1075" alt="dashboard_pokemon_merged" src="https://github.com/user-attachments/assets/96411ccb-11ff-429c-8a9a-7b04401d6db8" />
+
+pokemon clutering result dashboard url : https://lookerstudio.google.com/reporting/9573a5c4-3510-4a1d-9a05-97f1aa8b5359/page/zY7iF
 
 --------------------------------------------------------------------------------------------------------------------
 ## Tech Stack
