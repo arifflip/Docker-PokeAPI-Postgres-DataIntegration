@@ -21,8 +21,8 @@ def get_pokemon_data() :
     
     if response.status_code == 200:        
         
-        dataset_pokemon_gen_1=get_dataset_information(2)
-        dataset_pokemon_gen_1.to_csv("/opt/airflow/logs/temp_dataset_pokemon_gen1.csv")
+        dataset_pokemon_gen_1=get_dataset_information(151)
+        dataset_pokemon_gen_1.to_csv("/opt/airflow/logs/temp_dataset_pokemon_gen1.csv",index=None)
 
     else :
         raise Exception("Gagal narik data dari PokeAPI!")
