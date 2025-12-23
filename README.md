@@ -32,7 +32,7 @@ Visualization: Looker Studio
 ## Architecture
 Pipeline ini berjalan di atas Docker dengan arsitektur sebagai berikut:
 
-Airflow: Mengatur jadwal (scheduling) task dari ingestion hingga clustering.
+Airflow: Mengatur jadwal (scheduling) fetch data dan ingestion ke postgre
 
 PostgreSQL: Terdiri dari dua database utama:
 
