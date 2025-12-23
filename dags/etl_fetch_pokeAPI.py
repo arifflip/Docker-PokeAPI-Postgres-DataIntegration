@@ -29,8 +29,8 @@ def get_pokemon_data() :
 
 def get_postgres_engine():
     
-    hook = PostgresHook(postgres_conn_id='postgre_database_airflow')
-    conn = hook.get_connection('postgre_database_airflow')
+    hook = PostgresHook(postgres_conn_id='00_pokemon_db_conn')
+    conn = hook.get_connection('00_pokemon_db_conn')
     
     # 2. Ambil data mentah tanpa embel-embel 'extra'
     user = conn.login
@@ -45,31 +45,9 @@ def get_postgres_engine():
     # 4. Create Engine
     return create_engine(uri)
 
-    #user = os.getenv('DB_USER')
-    #password = os.getenv('DB_PASSWORD')
-    #host = "postgres-db"
-    #db = os.getenv('DB_NAME')
-    #port = "5432"
-    
     conn_uri = f"postgresql://{user}:{password}@{host}:{port}/{db}"
     return create_engine(conn_uri)
 
-"""    try:
-        hook = PostgresHook(postgres_conn_id='postgre_database_airflow')
-        
-        engine = hook.get_sqlalchemy_engine()
-        
-        print("Koneksi ke Postgres via Hook Berhasil!")
-        conn_uri = hook.get_uri()
-        if conn_uri.startswith("postgres://"):
-            conn_uri = conn_uri.replace("postgres://", "postgresql://", 1)
-
-        engine = create_engine(conn_uri)        
-        return engine
-    except Exception as e:
-        print(f"Gagal narik koneksi: {e}")
-        raise
-"""
 def upload_data_to_db():
 
     #read data csv dari log folder
